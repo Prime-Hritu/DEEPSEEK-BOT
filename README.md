@@ -80,6 +80,15 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+## To Do List
+
+- &#9745; Add database.
+- &#9744; Handle Exceptions.
+- &#9744; Add more features.
+
+
+---
+
 <br><br>
 <p align="center">
 <a href="https://www.buymeacoffee.com/hritu" target="_blank">
