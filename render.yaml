@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: DEEPSEEK-BOT
+    plan: free
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot.py"
+    envVars:
+      - key: TOKEN
+        description: "Telegram Bot token from @BotFather"
+        sync: false
+      - key: API_HASH
+        description: "Telegram API hash from https://my.telegram.org"
+        sync: false
+      - key: API_ID
+        description: "Telegram API ID from https://my.telegram.org"
+        sync: false
+      - key: OWNER
+        description: "Your Telegram user ID (from @userinfobot)"
+        sync: false
+      - key: MONGO_URI
+        description: "MongoDB connection URI (e.g., mongodb+srv://username:password@cluster.mongodb.net/...)"
+        sync: false
+      - key: MONGO_NAME
+        description: "Name of the MongoDB collection (default is 'Deepseek')"
+        sync: false
+      - key: HUGGINGFACE
+        description: "Your Huggingface API key"
+        sync: false
+      - key: FORCE
+        description: "Set to true to enable force sub channel features (true/false)"
+        sync: false
+      - key: CHANNEL_LINK
+        description: "Force sub channel link URL (e.g., https://t.me/Private_Bots)"
+        sync: false
+      - key: CHANNEL_USERNAME
+        description: "Force sub channel username with '@' (e.g., @Private_Bots)"
+        sync: false
+      - key: PORT
+        description: "Port number on which to run your bot's web server (default is 8000)"
+        sync: false

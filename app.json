@@ -1,0 +1,64 @@
+{
+    "name": "DEEPSEEK-BOT",
+    "description": "A Deepseek Telegram bot.",
+    "repository": "https://github.com/Prime-Hritu/DEEPSEEK-BOT",
+    "keywords": [
+      "telegram",
+      "bot",
+      "mongodb",
+      "huggingface",
+      "python"
+    ],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ],
+    "env": {
+      "TOKEN": {
+        "description": "Telegram Bot token from @BotFather",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Telegram API hash from https://my.telegram.org",
+        "required": true
+      },
+      "API_ID": {
+        "description": "Telegram API ID from https://my.telegram.org",
+        "required": true
+      },
+      "OWNER": {
+        "description": "Your Telegram user ID (from @userinfobot)",
+        "required": true
+      },
+      "MONGO_URI": {
+        "description": "MongoDB connection URI (e.g., mongodb+srv://username:password@cluster.mongodb.net/...)",
+        "required": false
+      },
+      "MONGO_NAME": {
+        "description": "Name of the MongoDB collection (default is 'Deepseek')",
+        "value": "Deepseek"
+      },
+      "HUGGINGFACE": {
+        "description": "Your Huggingface API key (available from your Huggingface account)",
+        "required": true
+      },
+      "FORCE": {
+        "description": "Set to true to enable force sub channel features (true or false)",
+        "value": "false"
+      },
+      "CHANNEL_LINK": {
+        "description": "Force sub channel link URL (e.g., https://t.me/Private_Bots)",
+        "required": false
+      },
+      "CHANNEL_USERNAME": {
+        "description": "Force sub channel username with '@' (e.g., @Private_Bots)",
+        "required": false
+      },
+      "PORT": {
+        "description": "Port number for the web server (default is 8000)",
+        "value": "8000"
+      }
+    }
+  }
+  
