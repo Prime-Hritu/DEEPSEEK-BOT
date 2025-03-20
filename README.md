@@ -11,6 +11,7 @@ Stay updated via our [Developer Channel](https://t.me/Private_Bots)
 **DEEPSEEK-BOT** is a Telegram bot designed to leverage modern APIs and databases to deliver deep functionality to its users.
 
 - It has multiple version of deepseek AIs including Deepseek R1 and Deepseek V3.
+- It has mutiple languages support.
 ---
 
 ## ⚙️ Configuration Variables
