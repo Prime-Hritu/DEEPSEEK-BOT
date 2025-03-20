@@ -29,7 +29,7 @@ class BOT:
     """
 
     TOKEN = os.environ.get("TOKEN", "")
-    SOURCE = "https://github.com/prime-hritu"
+    SOURCE = "https://github.com/Prime-Hritu/DEEPSEEK-BOT"
 
 
 class API:
