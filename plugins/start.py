@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from translate import Dynamic_Translate
 from database.users import add_served_user
 from translation import TEXT
-from config import OWNER, FORCE
+from config import OWNER, FORCE, BOT
 
 
 @Client.on_message(filters.command("start"))
@@ -18,5 +18,7 @@ def start(client: Client, message: Message):
         [InlineKeyboardButton(translator(
             "Developer 👨‍💻"), url=f"tg://user?id={OWNER.ID}")],
         [InlineKeyboardButton(translator("Updates Channel ☝️"),
-                              url=FORCE.CHANNEL_LINK)]
+                              url=FORCE.CHANNEL_LINK)],
+        [InlineKeyboardButton(translator("Source Code ↗️"),
+                              url=BOT.SOURCE)]
     ]))
