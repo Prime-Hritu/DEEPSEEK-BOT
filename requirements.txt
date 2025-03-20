@@ -1,0 +1,8 @@
+aiohttp==3.11.14
+googletrans==4.0.2
+httpx==0.28.1
+huggingface_hub==0.29.3
+pymongo==4.11.3
+Pyrogram==2.0.106
+python-dotenv==1.0.1
+TgCrypto
