@@ -7,6 +7,9 @@ Stay updated via our [Developer Channel](https://t.me/Private_Bots)
 
 ---
 
+# Before You Read
+**Give it a star before you read it. 🤣**
+
 ## 🌟 Overview
 **DEEPSEEK-BOT** is a Telegram bot designed to leverage modern APIs and databases to deliver deep functionality to its users.
 
