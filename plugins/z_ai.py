@@ -14,13 +14,13 @@ from config import FORCE as FORCER
 
 
 @Client.on_message()
-def chat(client: Client, message: Message):
+def chat_deepseek(client: Client, message: Message):
     add_served_user(message.chat.id)
     translator = Dynamic_Translate(message.chat.id).translate
     if FORCER.FORCE_BOOL == True:
         FORCE = False
         try:
-            got_chat_member: ChatMember = Client.get_chat_member(
+            got_chat_member: ChatMember = client.get_chat_member(
                 FORCER.CHANNEL_USERNAME, message.chat.id
             )
             if not got_chat_member.status in [
