@@ -77,4 +77,12 @@ You can find the list of libraries used in this project and their purposes in th
 ## 🔖 License
 This project is licensed under the [MIT License](LICENSE).
 
+---
+
+<br><br>
+<p align="center">
+<a href="https://www.buymeacoffee.com/hritu" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
+</a>
+</p>
 <image x="0" y="0" src="./svg/LOL.svg">
