@@ -82,10 +82,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## To Do List
 
-- &#9745; Add database.
-- &#9744; Handle Exceptions.
-- &#9744; Add more features.
-
+| Status                                            | Depscription          |
+| ------------------------------------------------- | --------------------- |
+| <input type="checkbox" disabled checked />        | Add database.         |
+| <input type="checkbox" disabled />                | Handle Exceptions.    |
+| <input type="checkbox" disabled />                | Add more features.    |
 
 ---
 
